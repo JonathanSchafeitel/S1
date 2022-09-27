@@ -13,8 +13,6 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
-
-    font-size: 14px;
     font: 13px/27px Roboto, Arial, sans-serif;
 }
 

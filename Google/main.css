@@ -1,31 +1,27 @@
-/*Debut du header*/
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Debut du header*/
 header {
     width: auto;
     height: 100px;
 }
-
-
-
 #conteneur {
-    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
+
     font-size: 14px;
     font: 13px/27px Roboto, Arial, sans-serif;
 }
 
 /*Alignement a droite header*/
 .element {
-    margin: 15px;
     align-items: flex-end;
+    margin: 15px;
 }
 
 /*Icone compte google*/
@@ -33,16 +29,18 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
     border-radius: 25px;
 }
 
 .icone_compte_G {
-    border-radius: 25px;
     width: 35px;
     height: 35px;
+
+    border-radius: 25px;
 }
 .icone_compte_G:hover{
-    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
 }
 .icone_appli {
     width: 30px;
@@ -52,6 +50,7 @@ header {
 .element:nth-child(1) {
     color: #fff;
     text-decoration: none;
+
     padding-top: 5px;
 }
 
@@ -60,28 +59,21 @@ header {
 }
 
 a:link {
-
     color: #265301;
-
 }
 
 a {
     text-decoration: none;
 }
-
 /*Fin du header*/
 
 /*Debut du bloc du milieu*/
-
-
 .div_centre {
     display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-items: center;
-
-
 }
 
 .bloc {
@@ -91,26 +83,25 @@ a {
 
 /*Logo*/
 .logo {
-    background-color: #fff;
+    width: 30%;
+    height: 30%;
     margin-top: 50px;
     margin-left: 25%;
     margin-right: 25%;
 
-    width: 30%;
-    height: 30%;
+    background-color: #fff;
 }
 
 /*Barre de recherche*/
 .barre_de_recherche {
     display: flex;
-    flex-direction: row;
     height: 100px;
     width: 600px;
+    flex-direction: row;
     position: absolute;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 10%;
-
 }
 
 .wrap {
@@ -118,41 +109,40 @@ a {
     height: max-content;
     position: absolute;
     display: flex;
-
-
     justify-content: space-around;
     align-items: center;
 
     border: 2px solid #000000;
     border-radius: 24px;
 }
+.wrap:hover{
+    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
+}
 
 .searchButton {
     width: 35px;
     height: 35px;
 
-    background: #ffffff;
     text-align: center;
     color: #fff;
-    border-radius: 24px;
-
+    background: #ffffff;
+    
     cursor: pointer;
     font-size: 20px;
     border: none;
-
+    border-radius: 24px;
 }
 
 .button_micro {
     width: 35px;
     height: 35px;
+
     background: #ffffff;
     border-radius: 24px;
     border: none;
-
 }
 
 .searchTerm {
-
     width: 500px;
     height: 30px;
 
@@ -182,61 +172,65 @@ a {
     margin-right: 25%;
     margin-top: 10px;
     position: absolute;
-    
-
-
 }
 
 .searchButton2 {
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+
+    color: #3c4043;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
-    color: #3c4043;
+    
     font-family: arial, sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
+    
     line-height: 27px;
-    height: 36px;
-    min-width: 54px;
+   
     text-align: center;
     cursor: pointer;
     user-select: none;
     
 }
 .searchButton2:hover{
-    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
 }
 
 .luckyButton {
-    background-color: #f8f9fa;
+    height: 36px;
+    min-width: 54px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
+    background-color: #f8f9fa;
     font-family: arial, sans-serif;
     font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
+    
     line-height: 27px;
-    height: 36px;
-    min-width: 54px;
+    
     text-align: center;
     cursor: pointer;
     user-select: none;
 }
 .luckyButton:hover{
-    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
 }
 
 .div_translate {
+    position: absolute;
+
     text-align: center;
     color: #4d5156;
     font-size: small;
     font-family: arial, sans-serif;
-    position: absolute;
+    
     margin-top: 15%;
-    gap: 5px;
-
 }
 
 /*Debut du Footer*/
@@ -260,47 +254,43 @@ footer {
 
     font-size: 15px;
     color: #70757a;
-
 }
 
 .div_footer_signature {
-
+    display: flex;
     width: auto;
     height: 70px;
-
-    color: #70757a;
-    padding: 10px;
-
-    display: flex;
     flex-direction: row;
-    border-top: #000000 1px solid;
-
     justify-content: center;
     align-items: center;
 
+
+    color: #70757a;
+    border-top: #000000 1px solid;
+
+    padding: 10px;
 }
 
 .feuille {
-    margin: 2px;
     width: 10px;
     height: 10px;
+
+    margin: 2px;
 }
 
 .div_footer_link {
+    display: flex;
     width: auto;
     height: 40px;
-    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
 
+    color: #202124;
     background-color: #f2f2f2;
 
-    color: #202124;
     padding-left: 5%;
     padding-right: 5%;
-
-
 }
 
 /*Fin du Footer*/

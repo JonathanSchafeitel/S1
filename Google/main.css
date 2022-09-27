@@ -30,8 +30,14 @@ header {
     border-radius: 25px;
 }
 
-.img {
+.icone_compte_G {
     border-radius: 25px;
+    width: 35px;
+    height: 35px;
+}
+.icone_appli {
+    width: 30px;
+    height: 30px;
 }
 
 .element:nth-child(1) {
@@ -80,6 +86,9 @@ a {
     margin-top: 50px;
     margin-left: 25%;
     margin-right: 25%;
+
+    width: 30%;
+    height: 30%;
 }
 
 /*Barre de recherche*/
@@ -146,6 +155,15 @@ a {
     width: 100%;
     position: relative;
     display: flex;
+}
+
+.loupe {
+    width: 20px;
+    height: 20px;
+}
+.microIcone{
+    width: 20px;
+    height: 20px;
 }
 
 /*Boutton de recherche*/
@@ -241,6 +259,8 @@ footer {
 
 .feuille {
     margin: 2px;
+    width: 10px;
+    height: 10px;
 }
 
 .div_footer_link {

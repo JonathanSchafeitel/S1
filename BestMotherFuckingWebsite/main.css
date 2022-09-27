@@ -1,0 +1,90 @@
+body {
+    font-family: Open Sans, Arial;
+    color: #d9d9d9;
+    font-size: 16px;
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    line-height: 1.4;
+    text-align: justify;
+    background-color: #000
+}
+/* Décallage margin*/
+p.st {
+    margin-top: -1em
+}
+/* Taille image HTLM / CSS / JS */
+ul li img {
+    height: 1em
+}
+/* Position image chat */
+div.fancyPositioning div.picture-left {
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+div.fancyPositioning div.picture-left img {
+    width: 100%
+}
+/* Quote */
+blockquote {
+    
+    color: #d3c9be;
+    margin-left: 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+blockquote:before {
+    font-family: Times New Roman,Times,Arial;
+    color: #666;
+    content: open-quote;
+    font-size: 2.2em;
+    font-weight: 600;
+    float: left;
+    margin-top: 0;
+    margin-right: 0.2rem;
+    width: 1.2rem;
+}
+blockquote span {
+    float: left;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+blockquote author {
+    display: block;
+    clear: both;
+    font-size: .6em;
+    margin-left: 2.4rem;
+    font-style: oblique;
+}
+blockquote:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+span.mfw {
+    color: #730000
+}
+a.kopimi, a.kopimi img.kopimi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.kopimi img.kopimi {
+    height: 2em
+}

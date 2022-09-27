@@ -1,294 +1,291 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 /*Debut du header*/
 header {
-    width: auto;
-    height: 100px;
+  width: auto;
+  height: 100px;
 }
 #conteneur {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
-    font: 13px/27px Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  font: 13px/27px Roboto, Arial, sans-serif;
 }
 
 /*Alignement a droite header*/
 .element {
-    align-items: flex-end;
-    margin: 15px;
+  align-items: flex-end;
+  margin: 15px;
 }
 
 /*Icone compte google*/
 .element:nth-child(4) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 .icone_compte_G {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 
-    border-radius: 25px;
+  border-radius: 25px;
 }
-.icone_compte_G:hover{
-    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
+.icone_compte_G:hover {
+  box-shadow: 0px 0px 5px 1px rgba(135, 133, 135, 1);
 }
 .icone_appli {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .element:nth-child(1) {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .element:nth-child(2) {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 a:link {
-    color: #265301;
+  color: #265301;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /*Fin du header*/
 
 /*Debut du bloc du milieu*/
 .div_centre {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
 }
 
 .bloc {
-    width: auto;
-    height: 500px;
+  width: auto;
+  height: 500px;
 }
 
 /*Logo*/
 .logo {
-    width: 30%;
-    height: 30%;
-    margin-top: 50px;
-    margin-left: 25%;
-    margin-right: 25%;
+  width: 30%;
+  height: 30%;
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 25%;
 
-    background-color: #fff;
+  background-color: #fff;
 }
 
 /*Barre de recherche*/
 .barre_de_recherche {
-    display: flex;
-    height: 100px;
-    width: 600px;
-    flex-direction: row;
-    position: absolute;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 10%;
+  display: flex;
+  height: 100px;
+  width: 600px;
+  flex-direction: row;
+  position: absolute;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10%;
 }
 
 .wrap {
-    width: max-content;
-    height: max-content;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: max-content;
+  height: max-content;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
-    border: 2px solid #000000;
-    border-radius: 24px;
+  border: 2px solid #000000;
+  border-radius: 24px;
 }
-.wrap:hover{
-    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
+.wrap:hover {
+  box-shadow: 0px 0px 5px 1px rgba(135, 133, 135, 1);
 }
 
 .searchButton {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 
-    text-align: center;
-    color: #fff;
-    background: #ffffff;
-    
-    cursor: pointer;
-    font-size: 20px;
-    border: none;
-    border-radius: 24px;
+  text-align: center;
+  color: #fff;
+  background: #ffffff;
+
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  border-radius: 24px;
 }
 
 .button_micro {
-    width: 35px;
-    height: 35px;
+  width: 35px;
+  height: 35px;
 
-    background: #ffffff;
-    border-radius: 24px;
-    border: none;
+  background: #ffffff;
+  border-radius: 24px;
+  border: none;
 }
 
 .searchTerm {
-    width: 500px;
-    height: 30px;
+  width: 500px;
+  height: 30px;
 
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 .search {
-    width: 100%;
-    position: relative;
-    display: flex;
+  width: 100%;
+  position: relative;
+  display: flex;
 }
 
 .loupe {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
-.microIcone{
-    width: 20px;
-    height: 20px;
+.microIcone {
+  width: 20px;
+  height: 20px;
 }
 
 /*Boutton de recherche*/
 .div_button {
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 10px;
-    position: absolute;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10px;
+  position: absolute;
 }
 
 .searchButton2 {
-    height: 36px;
-    min-width: 54px;
-    margin: 11px 4px;
-    padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+  margin: 11px 4px;
+  padding: 0 16px;
 
-    color: #3c4043;
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    
-    line-height: 27px;
-   
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-    
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+
+  font-family: arial, sans-serif;
+  font-size: 14px;
+
+  line-height: 27px;
+
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
-.searchButton2:hover{
-    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
+.searchButton2:hover {
+  box-shadow: 0px 0px 5px 1px rgba(135, 133, 135, 1);
 }
 
 .luckyButton {
-    height: 36px;
-    min-width: 54px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    background-color: #f8f9fa;
-    font-family: arial, sans-serif;
-    font-size: 14px;
-    
-    line-height: 27px;
-    
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
+  height: 36px;
+  min-width: 54px;
+  margin: 11px 4px;
+  padding: 0 16px;
+
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+
+  line-height: 27px;
+
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
-.luckyButton:hover{
-    box-shadow: 0px 0px 5px 1px rgba(135,133,135,1);
+.luckyButton:hover {
+  box-shadow: 0px 0px 5px 1px rgba(135, 133, 135, 1);
 }
 
 .div_translate {
-    position: absolute;
+  position: absolute;
 
-    text-align: center;
-    color: #4d5156;
-    font-size: small;
-    font-family: arial, sans-serif;
-    
-    margin-top: 15%;
+  text-align: center;
+  color: #4d5156;
+  font-size: small;
+  font-family: arial, sans-serif;
+
+  margin-top: 15%;
 }
 
 /*Debut du Footer*/
 footer {
+  width: auto;
+  height: max-content;
 
-    width: auto;
-    height: max-content;
+  background-color: #f2f2f2;
 
-    background-color: #f2f2f2;
-
-    font-family: arial, sans-serif;
+  font-family: arial, sans-serif;
 }
 
 .div_loc {
-    display: flex;
-    width: max-content;
-    height: max-content;
-    
-    padding: 5px;
-    margin-left: 10px;
+  display: flex;
+  width: max-content;
+  height: max-content;
 
-    font-size: 15px;
-    color: #70757a;
+  padding: 5px;
+  margin-left: 10px;
+
+  font-size: 15px;
+  color: #70757a;
 }
 
 .div_footer_signature {
-    display: flex;
-    width: auto;
-    height: 70px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: auto;
+  height: 70px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 
+  color: #70757a;
+  border-top: #000000 1px solid;
 
-    color: #70757a;
-    border-top: #000000 1px solid;
-
-    padding: 10px;
+  padding: 10px;
 }
 
 .feuille {
-    width: 10px;
-    height: 10px;
+  width: 10px;
+  height: 10px;
 
-    margin: 2px;
+  margin: 2px;
 }
 
 .div_footer_link {
-    display: flex;
-    width: auto;
-    height: 40px;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+  display: flex;
+  width: auto;
+  height: 40px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 
-    color: #202124;
-    background-color: #f2f2f2;
+  color: #202124;
+  background-color: #f2f2f2;
 
-    padding-left: 5%;
-    padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /*Fin du Footer*/

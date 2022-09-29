@@ -1,0 +1,17 @@
+
+
+.divMiddle{
+  background-color: rgb(213, 0, 0);
+  width: 100%;
+  height: 100%;
+}
+.card-img-top{
+  width: 50%;
+  height: 50%;
+}
+.bg-image{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
